@@ -1,0 +1,26 @@
+package OOPS3;
+
+public class index {
+
+	void  method() {
+		String str ="Thequickbrownfoxjumpsoverthelazydog";
+		for (int i=0;i<str.length();i++){
+			char c= str.charAt(i);
+			
+			int x = str.indexOf(c);
+		//	System.out.println(c);
+
+			System.out.println(x);
+
+		}
+		
+		
+	}
+	public static void main(String[]args) {
+		index m =new index();
+		 m.method();
+//		System.out.println("the index of given alphabet is " );
+
+	}
+	
+}
