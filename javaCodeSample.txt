@@ -21,6 +21,9 @@ public class index {
 		 m.method();
 //		System.out.println("the index of given alphabet is " );
 
+
+
+
 	}
 	
 }
